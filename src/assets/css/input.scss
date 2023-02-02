@@ -1,0 +1,110 @@
+
+
+.input {
+    width: 100%;
+    outline: none;
+    transition: 0.3s;
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+
+.hire-bnb-input {
+  border: 1px solid #92C589;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border-radius: 15px;
+  padding: 10px 145px 10px 10px;
+  width: calc(100% - 157px);
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+}
+
+.referal-url-input {
+  border: 1px solid #92C589;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border-radius: 15px;
+  padding: 10px 80px 10px 20px;
+  width: calc(100% - 102px);
+  text-align: left;
+  font-family: Inter;
+  font-size: 15px;
+}
+
+.swap-balance-input {
+    color: white !important;
+    width: 0px;
+    position: relative;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    flex: 1 1 auto;
+    background-color: transparent;
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px;
+    appearance: textfield;
+}
+
+.token-search-input {
+  flex: 1 1 auto;
+  position: relative;
+  display: flex;
+  padding: 16px;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  white-space: nowrap;
+  background: none;
+  outline: none;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid rgb(7 72 12);
+  appearance: none;
+  font-size: 18px;
+  transition: border 100ms ease 0s;
+}
+
+.token-search-input:focus {
+  border-color: black;
+}
+
+.slippageTolerance-input {
+  background-color: rgb(82 111 78);
+  border: 0px;
+  border-radius: 16px;
+  color: rgb(234, 226, 252);
+  display: block;
+  font-size: 16px;
+  height: 48px;
+  font-family: Inter;
+  outline: 0px;
+  flex: 1 1 auto;
+  padding: 0px 16px;
+}
+
+.slippageTolerance-input:focus {
+  box-shadow: rgb(68 145 64) 0px 0px 0px 1px, rgb(58 125 41 / 60%) 0px 0px 0px 4px;
+}
+
+.deadline-input {
+  background-color: #526f4e;
+  border: 0px;
+  border-radius: 16px;
+  box-shadow: rgb(74 74 104 / 10%) 0px 2px 2px -1px inset;
+  color: rgb(234, 226, 252);
+  display: block;
+  font-size: 16px;
+  height: 40px;
+  outline: 0px;
+  padding: 0px 16px;
+  width: 100px;
+}

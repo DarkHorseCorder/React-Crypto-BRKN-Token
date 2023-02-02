@@ -1,0 +1,121 @@
+.swap {
+    z-index: 99999999999999;
+    margin-top: 0px;
+    padding-top: 200px;
+    margin-bottom: 300px;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin: 0 auto;
+        background-color: #283825;
+        width: 600px;
+        border-radius: 25px;
+        padding: 30px 40px;
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .title {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                h1 {
+                    font-family: Inter;
+                    color: white;
+                    font-size: 20px;
+                    margin: 0px;
+                }
+
+                p {
+                    font-family: Inter;
+                    color: #82B879;
+                    margin: 0px;
+                }
+            }
+
+            .settings {
+                display: flex;
+                gap: 50px;
+            }
+        }
+
+        .br {
+            border-bottom: 1px solid #334B2F;
+            margin: 0px;
+        }
+
+        .from, .to {
+            background-color: #35612e;
+            padding: 25px;
+            border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .from-balance {
+                display: flex;
+                justify-content: space-between;
+
+                p {
+                    margin: 0px;
+                    font-family: Inter;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+
+            .action {
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+            }
+        }
+
+        .exchange-from-to {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .tolerance {
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 10px;
+
+            p {
+                margin: 0px;
+                color: white;
+                font-family: Inter;
+            }
+        }
+
+        .rate {
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 10px;
+            font-size: 20px;
+
+            p {
+                margin: 0px;
+                color: white;
+                font-family: Inter;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .swap {
+        margin-top: 50px;
+        padding: 0px 20px;
+
+        .container {
+            width: calc(100% - 80px)
+        }
+    }
+}

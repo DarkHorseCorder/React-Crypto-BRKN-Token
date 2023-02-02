@@ -1,0 +1,373 @@
+.button {
+    outline: none;
+    border: 0px;
+    padding: 0px;
+    background-color: #ffffff00;
+    color: black;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+.connect-wallet-btn {
+    background: #53C351;
+    padding: 14px 32px;
+    border-radius: 15px;
+    border: 1px solid #53C351;
+    color: white;
+    text-transform: uppercase;
+}
+
+.connect-wallet-btn:hover {
+    background-color: #ffffff00;
+    color: #53C351;
+}
+
+.hire-cthulhu-btn {
+    width: 100%;
+    background-color: #53C351;
+    color: white;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 15px;
+    border: 1px solid #53C351;
+}
+
+.hire-cthulhu-btn:hover {
+    color: #53C351;
+    background-color: #ffffff00;
+}
+
+.get-reward-btn {
+    width: 100%;
+    background-color: #53C351;
+    color: white;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 15px;
+    border: 1px solid #53C351;
+}
+
+.get-reward-btn:hover {
+    color: #53C351;
+    background-color: #ffffff00;
+}
+
+.disabled, .disabled:hover {
+    opacity: .8;
+    width: 100%;
+    background-color: #939393;
+    border: 1px solid #939393;
+    color: white;
+    cursor: default;
+}
+
+.mobile-contact {
+    button {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ffffff00;
+        border: 0px;
+        opacity: .3;
+
+        p {
+            margin: 0px;
+            font-family: Inter;
+            color: white;
+        }
+        
+        img {
+            width: 20px;
+            height: 20px;
+        }
+
+        
+    }
+    
+    .action {
+        opacity: 1;
+    }
+}
+
+.header-navigate {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.header-navigate:hover {
+    opacity: .8;
+}
+
+.swap-head-btn {
+    color: #82B879;
+
+    i {
+        font-size: 33px;
+    }
+}
+
+.swap-head-btn:hover {
+    opacity: .5;
+}
+
+.balance-btn {
+    color: white;
+    font-size: 20px;
+}
+
+.swap-max-btn {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s;
+    height: 32px;
+    padding: 0px 16px;
+    background-color: transparent;
+    color: rgb(31, 199, 212);
+    box-shadow: none;
+}
+
+.swap-max-btn:hover {
+    opacity: 0.65;
+}
+
+.select-currency {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    color: white;
+    border-radius: 12px;
+    outline: none;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    padding: 0px 0.5rem;
+    gap: 10px;
+
+    img {
+        height: 36px;
+    }
+
+    p {
+        color: white;
+        font-family: Inter;
+    }
+}
+
+.select-currency:hover {
+    background-color: rgb(25 39 9 / 32%);
+}
+
+.exchange-from-to {
+    button {
+        color: #82B879;
+        padding: 10px;
+        background-color: #0000008c;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+    
+    button:hover {
+        opacity: .3;
+    }
+}
+
+.rate {
+    button {
+        color: #82B879;
+        background-color: #0000008c;
+        border-radius: 50%;
+        width: 23px;
+        height: 23px;
+    }
+
+    button:hover {
+        opacity: .3;
+    }
+}
+
+.swap-btn {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 16px;
+    box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s;
+    height: 48px;
+    padding: 0px 24px;
+    background-color: rgb(53 97 46);
+    color: white;
+    width: 100%;
+}
+
+
+.swap-disabled-btn {
+    background-color: rgb(57 68 42);
+    box-shadow: none;
+    color: rgb(102, 97, 113);
+    cursor: not-allowed;
+}
+
+.token-name-btn {
+    i {
+        color: white;
+        font-size: 15px;
+    }
+}
+
+.token-one-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    flex: 1 1 auto;
+    z-index: 99999999999999999999999999999;
+    
+    div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+    p {
+        font-family: Inter;
+        font-size: 20px;
+        margin: 0px;
+        margin-right: 20px;
+        color: white;
+    }
+}
+
+.token-list-first {
+    opacity: .5;
+}
+
+.cursor-default {
+    cursor: default;
+}
+
+.tolerance-actions-btn {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s;
+    height: 48px;
+    padding: 0px 24px;
+    background-color: #4baa3c;
+    color: white;
+}
+
+.tolerance-actions-btn:hover {
+    opacity: .5;
+}
+
+.tolerance-actions-btn-default {
+    background-color: #526f4e;
+}
+
+.close-btn {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s;
+    height: 32px;
+    padding: 0px 16px;
+    background-color: rgb(55 125 15);
+    box-shadow: none;
+    color: white;
+}
+
+.close-btn:hover {
+    opacity: .5;
+}
+
+.faq-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 20px;
+
+    i {
+        color: white;
+    }
+}
+
+.faq-btn:hover {
+    opacity: .5;
+}
+
+@media screen and (max-width: 768px) {
+    .tolerance-actions-btn {
+        flex: 1;
+    }
+}
